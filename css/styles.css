@@ -1,9 +1,10 @@
+
 html {
   font-size: 62.5%;
 }
 
 body {
-  font-family: ' Inter ', sans-serif;
+  font-family: Poppins, sans-serif;
   line-height: 1.6;
 }
 
@@ -24,12 +25,18 @@ p {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   min-width: 25rem;
+
+  
 }
 
 .card-horizontal {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
+  color: white;
+  text-align: left;
+  padding: 2rem 1rem;
+  margin: 1rem;
 }
 
 .box {
@@ -49,6 +56,11 @@ button {
   box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.444);
   cursor: pointer;
   display: block;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  font-weight:normal;
+  margin: 1rem auto;
+  color: white;
 }
 
 .wrapper {
@@ -57,6 +69,7 @@ button {
   align-items: center;
   justify-content: space-evenly;
   max-width: 90vw;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -67,4 +80,81 @@ button {
     flex-direction: column;
     max-width: 90vw;
   }
+}
+
+/* Start here */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 
+}
+
+.main__title{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 10px;
+  background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+ 
+ 
+}
+.sub__title{
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+
+}
+.mini__title{
+  font-size: 15px;
+  padding-bottom: 9px;
+}
+p{
+  font-size: 13px;
+  line-height: 1.5;
+}
+/* box */
+#box__sunrise{
+
+  background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+
+}
+#box__frost{
+
+  background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
+
+}
+#box__lime{
+
+  background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)
+
+}
+/* buttons */
+.btn-sunrise{
+  background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+.btn-frost{
+  background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
+}
+.btn-lime{
+  background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)
+}
+
+
+/* horizontal cards */
+#card__sunrise{
+  background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+#card__frost{
+  background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
+}
+#card__lime{
+  background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)
+}
+#card__sunrise{
+  background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
