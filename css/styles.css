@@ -1,8 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box
 }
+
 html {
   font-size: 62.5%;
 }
@@ -32,7 +33,7 @@ p {
   min-width: 25rem;
   padding: 1rem;
 
-  
+
 }
 
 .card-horizontal {
@@ -64,7 +65,7 @@ button {
   display: block;
   padding: 1rem 2rem;
   font-size: 1.3rem;
-  font-weight:normal;
+  font-weight: normal;
   margin: 1rem auto;
   color: white;
 }
@@ -92,71 +93,56 @@ button {
 
 
 
-.main__title{
+.main__title {
   font-size: 30px;
   font-weight: 700;
   text-align: left;
   margin-top: 10px;
   background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
- 
- 
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+
 }
-.sub__title{
+
+.sub__title {
   font-size: 25px;
   font-weight: 700;
   text-align: center;
 
 }
-.mini__title{
+
+.mini__title {
   font-size: 15px;
   padding-bottom: 9px;
 }
-p{
+
+p {
   font-size: 13px;
   line-height: 1.5;
 }
-/* box */
-#box__sunrise{
+
+/*  Colors */
+.btn-sunrise,
+#box__sunrise,
+#card__sunrise {
 
   background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 
 }
-#box__frost{
+
+.btn-frost,
+#box__frost,
+#card__frost {
 
   background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
-
 }
-#box__lime{
+
+.btn-lime,
+#box__lime,
+#card__lime {
 
   background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)
-
-}
-/* buttons */
-.btn-sunrise{
-  background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-}
-.btn-frost{
-  background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
-}
-.btn-lime{
-  background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)
-}
-
-
-/* horizontal cards */
-#card__sunrise{
-  background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-}
-#card__frost{
-  background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
-}
-#card__lime{
-  background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)
-}
-#card__sunrise{
-  background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
