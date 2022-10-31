@@ -37,7 +37,7 @@ p {
 }
 /* Horizontal cards */
 
-.card-horizontal {
+.card__horizontal {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
@@ -132,20 +132,20 @@ p {
 }
 
 /*  Colors */
-.btn-sunrise,
-#box__sunrise,
-#card__sunrise {
+.btn__sunrise,
+.box__sunrise,
+.card__sunrise {
   background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
-.btn-frost,
-#box__frost,
-#card__frost {
+.btn__frost,
+.box__frost,
+.card__frost {
   background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
 }
 
-.btn-lime,
-#box__lime,
-#card__lime {
+.btn__lime,
+.box__lime,
+.card__lime {
   background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
 }
