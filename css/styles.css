@@ -95,6 +95,14 @@ button {
     flex-direction: column;
     max-width: 90vw;
   }
+  .card{
+    margin: 1rem;
+  }
+  .card__horizontal{
+    margin: 1rem;
+    max-width: 25rem;
+    min-height: 10rem ;
+  }
 }
 
 /* Main title */
